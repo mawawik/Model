@@ -12,7 +12,7 @@ namespace ViewModel
     public abstract class BaseDb
     {  //protected static string connectionString = @"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\Users\nativ\Downloads\project\project\ViewModel\HishtalmutFinal.accdb";
         protected static string connectionString = @"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=" + Path.GetFullPath(System.Reflection.Assembly.GetExecutingAssembly().Location
-            + "/../../../../../ViewModel/ProjectAcc.accdb");
+            + "/../../../../../ViewModel/ProjectAcc(1).accdb");
         protected OleDbConnection connection;
         protected OleDbCommand command;
         protected OleDbDataReader reader;
